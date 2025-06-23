@@ -1,0 +1,392 @@
+body {
+  background-color: #0D0D0D;
+  font-family: "Caprasimo", serif; 
+  color:#6a0000;
+  align-items: center;
+}
+
+p {
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    color:#B22222;
+}
+
+  .container-botao {
+     display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+  }
+
+ .botao-1 {
+  background-color: #B22222;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+  .botao-1:hover {
+  background-color: #8B0000; /* tom mais escuro ao passar o mouse */
+  transform: scale(1.05);    /* leve aumento no tamanho */
+}
+
+  img {
+
+  display: block;
+  margin: 0 auto;
+
+
+  }
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1000px; /* Limita a largura total */
+  margin: 0 auto; /* Centraliza o container */
+}
+
+
+.card-personagem {
+  background-color: #1e1e1e;
+  color: white;
+  width: 220px;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.card-personagem:hover {
+  transform: scale(1.05);
+}
+
+.cabecalho-card {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #a70000;
+}
+
+.card-personagem img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.profissao-personagem {
+  font-style: italic;
+  color: #a70000;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.descricao-personagem {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.botao-card {
+  margin: 5px;
+  padding: 8px 16px;
+  background-color: #6a0000;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-card:hover {
+  background-color: #B22222;
+}
+
+h1 {
+  text-align: center;
+}
+.container-ficha1 {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: 'Caprasimo', serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.container-ficha1 h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.ficha-médica h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+}
+
+.container-ficha2 {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: 'Caprasimo', serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.container-ficha2 h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.ficha-criminoso h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+}
+
+.container-ficha3 {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: 'Caprasimo', serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.container-ficha3 h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.ficha-historiador h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+}
+
+.container-ficha4 {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: 'Caprasimo', serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.container-ficha4 h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.ficha-Clérigo h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+}
+
+.container-ficha5 {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: 'Caprasimo', serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.container-ficha5 h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.ficha-detetive h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+}
+
+.container-ficha6 {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: 'Caprasimo', serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.container-ficha6 h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.ficha-jornalista h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+}
+
+.container-ficha7 {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: 'Caprasimo', serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.container-ficha7 h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.ficha-paranormal h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+}
+
+.container-ficha8 {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: 'Caprasimo', serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.container-ficha8 h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.ficha-pintor h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+}
+
+.container-ficha9 {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 30px auto;
+  font-family: 'Caprasimo', serif;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.container-ficha9 h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.ficha-veterana h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  border-bottom: 1px solid #666;
+  padding-bottom: 5px;
+}
+
+button {
+  display: block; /* Faz o botão ocupar toda a linha */
+  margin: 20px auto; /* Centraliza horizontalmente e dá espaçamento vertical */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #B22222; /* verde elegante */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8B0000; /* Efeito ao passar o mouse */
+}
+
+.card-bilhete {
+  width: 60%;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff8dc; /* tom de papel envelhecido */
+  border: 2px dashed #b22222; /* marquinhas vermelhas */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card-bilhete::before,
+.card-bilhete::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: url('https://i.imgur.com/f1QF1mK.png'); /* exemplo de marca vermelha — pode trocar por outra imagem */
+  background-size: contain;
+  opacity: 0.5;
+}
+
+.card-bilhete::before {
+  top: -20px;
+  left: -20px;
+}
+
+.card-bilhete::after {
+  bottom: -20px;
+  right: -20px;
+}
+
+   
+    
+  
