@@ -1,24 +1,32 @@
 body {
   background-color: #0D0D0D;
   font-family: "Caprasimo", serif; 
-  color:#6a0000;
+  color: #6a0000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
+/* Parágrafo */
 p {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    color:#B22222;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: #B22222;
+  text-align: center;
+  padding: 0 10px;
 }
 
-  .container-botao {
-     display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    
-  }
+/* Botão */
+.container-botao {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
 
- .botao-1 {
+.botao-1 {
   background-color: #B22222;
   color: white;
   padding: 12px 24px;
@@ -29,28 +37,29 @@ p {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-  .botao-1:hover {
-  background-color: #8B0000; /* tom mais escuro ao passar o mouse */
-  transform: scale(1.05);    /* leve aumento no tamanho */
+.botao-1:hover {
+  background-color: #8B0000;
+  transform: scale(1.05);
 }
 
-  img {
-
+/* Imagem */
+img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
 
-
-  }
-
+/* Container de cards */
 .container-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  max-width: 1000px; /* Limita a largura total */
-  margin: 0 auto; /* Centraliza o container */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
-
 
 .card-personagem {
   background-color: #1e1e1e;
